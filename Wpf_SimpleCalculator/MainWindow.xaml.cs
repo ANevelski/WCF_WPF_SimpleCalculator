@@ -135,7 +135,7 @@ namespace Wpf_SimpleCalculator
 
         private void Window_Closed(object sender, EventArgs e)
         {
-            calcService.Close();
+            _calcService.Close();
         }
     }
 }
